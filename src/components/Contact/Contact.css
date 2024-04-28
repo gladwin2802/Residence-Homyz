@@ -1,0 +1,94 @@
+.image-container-1{
+       display: flex;
+       width:26rem;
+       height:30rem;
+       margin-right: 10rem;
+       width:24rem;
+       overflow: hidden;
+       border-radius: 15rem 15rem 0 0;
+       border: 8px solid rgb(241, 239, 239);
+       margin-left: 100px;
+}
+.image-container-1>img{
+       position: relative;
+       right:64px;
+       width:100%;
+       height:100%;
+}
+
+.c-container{
+       justify-content: space-between;
+       
+}
+
+.c-container .c-left{
+       margin-left: 30px;
+}
+.c-container>div{
+       flex:1;
+
+}
+
+.c-right{
+       width: 100%;
+}
+
+.c-left{
+       gap:0.5rem
+}
+
+.contactModes{
+       margin-top: 2rem;
+       gap:1rem;
+}
+
+.contactModes .row{
+       gap:1.5rem;
+}
+
+.mode{
+       width:16rem;
+       padding: 1rem;
+       border:0.8px solid rgba(128,128,128,0.143);
+       border-radius: 10px;
+       gap:1rem;
+       transition: all 300ms ease-in;
+}
+
+.mode .button{
+       width:100%;
+       background: var(--lightblue);
+       color:var(--blue);
+       font-size: 0.9rem;
+       font-weight: 600;
+
+}
+
+
+
+.mode>:nth-child(1){
+       width: 100%;
+       gap:1.6rem;
+}
+
+.mode.detail.primaryText{
+       font-size: 1.1rem;
+       font-weight: 600;
+}
+
+.mode:hover{
+       scale:1.1;
+       box-shadow: var(--shadow);
+}
+
+.mode .button:hover{
+       background: var(--blue-gradient);
+       color: white;
+       scale: 0.8;
+}
+
+.detail .color-name{
+       color:rgb(30, 30, 90);
+       font-size: 18px;
+       font-weight: 600;
+}
